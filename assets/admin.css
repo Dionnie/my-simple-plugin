@@ -1,0 +1,53 @@
+/* Set editor dimensions */
+.cm-s-one-dark {
+  width: 100%;
+  min-height: 500px;
+  height: calc(100vh - 280px);
+  border-radius: 8px;
+}
+
+.cm-comment {
+  word-break: break-word;
+}
+
+textarea {
+  padding-left: 48px;
+  padding-top: 3px;
+  min-height: 500px;
+  height: 100%;
+  resize: none;
+}
+
+.grid-container {
+  max-width: 1400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.grid-item {
+  background: #f3f3f3;
+
+  border-radius: 8px;
+}
+
+/* Responsive: stack on small screens */
+@media (max-width: 1200px) {
+  .grid-container {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Stretch editor to fit inside its containing div */
+.cm-editor {
+  height: 100%;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.plugin-title {
+  font-size: 24px;
+  font-weight: 600 !important;
+  margin-bottom: 20px !important;
+}
