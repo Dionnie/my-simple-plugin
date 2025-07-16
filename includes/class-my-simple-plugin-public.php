@@ -37,6 +37,7 @@ class My_Simple_Plugin_Public
             '1.0.0'
         );
 
+        // Load custom CSS and append it to the TwentyTwenty stylesheet
         $custom_css = get_option('custom-css');
         if (!empty($custom_css)) {
             wp_enqueue_style('twentytwenty');
@@ -51,6 +52,7 @@ class My_Simple_Plugin_Public
             true
         );
 
+        // Load custom JS and append it to the TwentyTwenty script
         $custom_js = get_option('custom-js');
         if (!empty($custom_js)) {
             wp_enqueue_script('twentytwenty');
