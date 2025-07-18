@@ -37,7 +37,3 @@ Start building or editing your custom CSS and JS directly from the plugin interf
 
 * No need to modify any admin PHP files—everything should work out of the box.
 * Feel free to extend or improve the plugin’s functionality if needed.
-
----
-
-Let me know if you’d like to add screenshots, code samples, or link to a demo page!
