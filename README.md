@@ -8,13 +8,13 @@ Follow these steps to get started with **My Simple Plugin**:
 
 ### 1. Add Your Favorite jQuery Plugin
 
-Download your desired jQuery plugin and place its CSS and JS files inside the plugin’s `assets/` directory.
+Download your favorite jQuery plugin and place its CSS and JS files inside the plugin’s `assets/` directory.
 
 ### 2. Enqueue Scripts and Styles
 
 Open the file:
 `includes/class-my-simple-plugin-public.php`
-Inside the `enqueue_scripts()` method, enqueue the plugin’s assets using `wp_enqueue_script()` and `wp_enqueue_style()`.
+Inside the `enqueue_scripts()` method, enqueue your JQuery plugin’s assets using `wp_enqueue_script()` and `wp_enqueue_style()`.
 
 ### 3. Load Custom CSS/JS
 
@@ -23,7 +23,7 @@ Ensure the following options are loaded **after** your jQuery plugin:
 * `get_option('custom-css')` for custom CSS
 * `get_option('custom-js')` for custom JavaScript
 
-> ✅ Refer to how it's implemented in the default TwentyTwenty plugin as a reference for load order.
+> ✅ Refer to how it's implemented in the default TwentyTwenty JQuery plugin as a reference for load order.
 
 ### 4. Customize via Dashboard
 
