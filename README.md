@@ -23,7 +23,7 @@ Ensure the following options are loaded **after** your jQuery plugin:
 * `get_option('custom-css')` for custom CSS
 * `get_option('custom-js')` for custom JavaScript
 
-> ✅ Refer to how it's implemented in the default TwentyTwenty theme as a reference for load order.
+> ✅ Refer to how it's implemented in the default TwentyTwenty plugin as a reference for load order.
 
 ### 4. Customize via Dashboard
 
